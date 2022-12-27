@@ -2,6 +2,15 @@ secretGenerator:
 - name: mysql-pass
   literals:
   - password=YOUR_PASSWORD
+- name: mysql-pass1
+  literals:
+  - password1=YOUR_PASSWORD
+- name: mysql-pass2
+  literals:
+  - password2=YOUR_PASSWORD
+- name: mysql-pass3
+  literals:
+  - password3=YOUR_PASSWORD
 resources:
   - mysql.yaml
   - wpdep.yaml
