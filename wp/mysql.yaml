@@ -45,7 +45,7 @@ spec:
         tier: mysql
     spec:
       containers:
-      - image: mysql:5.6
+      - image: mysql:8.0
         name: mysql
         env:
         - name: MYSQL_ROOT_PASSWORD
@@ -73,14 +73,13 @@ spec:
               key: password3
 
         - name: sooraj
-          value: test
+          value: failed
 
         - name: apton
-          value: test
+          value: failed
 
         - name: kerala
-          value: test      
+          value: failed      
         ports:
         - containerPort: 3306
           name: mysql
- 
