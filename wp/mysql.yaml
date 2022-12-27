@@ -71,6 +71,17 @@ spec:
             secretKeyRef:
               name: mysql-pass3
               key: password3
+
+        - name: sooraj
+          value: test
+
+        - name: apton
+          value: test
+
+        - name: kerala
+          value: test      
         ports:
         - containerPort: 3306
           name: mysql
+ 
+x
