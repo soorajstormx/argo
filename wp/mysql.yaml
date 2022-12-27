@@ -53,19 +53,19 @@ spec:
             secretKeyRef:
               name: mysql-pass
               key: password
-        env:
+
         - name: MYSQL_test_PASSWORD1
           valueFrom:
             secretKeyRef:
               name: mysql-pass1
               key: password1
-        env:
+
         - name: MYSQL_ROOT_PASSWORD2
           valueFrom:
             secretKeyRef:
               name: mysql-pass2
               key: password2
-        env:
+
         - name: MYSQL_ROOT_PASSWORD3
           valueFrom:
             secretKeyRef:
